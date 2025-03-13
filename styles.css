@@ -46,7 +46,7 @@ button {
     color: var(--color-tertiary);
 }
 
-#era-or-genra-selection-box {
+#era-or-genre-selection-box {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -54,7 +54,7 @@ button {
     justify-content: center;
 }
 
-#era-or-genra-selection-box button {
+#era-or-genre-selection-box button {
     max-width: 600px;
     min-width: 40vw;
     max-height: 400px;
@@ -64,6 +64,6 @@ button {
     border-radius: 6vmax;
 }
 
-#era-or-genra-selection-box p {
+#era-or-genre-selection-box p {
     font-size: 2em;
 }

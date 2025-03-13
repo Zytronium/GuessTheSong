@@ -1,6 +1,12 @@
 /* Mobile Styles */
 @media (max-width : 768px) {
-    #era-or-genra-selection-box {
+    #era-or-genre-selection-box {
         flex-direction: column;
+    }
+
+    #era-or-genre-selection-box button {
+        min-width: 65vw;
+        min-height: 30vh;
+        margin: 5px;
     }
 }
