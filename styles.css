@@ -1,0 +1,69 @@
+/* Global Styles */
+:root {
+    --color-primary: #AF1EFE;
+    --color-secondary: #097fff;
+    --color-tertiary: #FFC107;
+    --color-quartinary: #5AE6FF;
+
+    --color-text: #FAFE18;
+
+}
+
+* {
+    color: #FAFE18;
+    font-family: Comfortaa, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #5a035a;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+button {
+    border-radius: 35px;
+    padding: 20px;
+    font-size: 2em;
+    background-color: black;
+}
+
+#start-btn {
+    background-color: var(--color-primary);
+    color: var(--color-quartinary);
+    margin-top: 30px;
+}
+
+#era-btn {
+    background-color: var(--color-primary);
+    color: var(--color-quartinary);
+}
+
+#genre-btn {
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary);
+}
+
+#era-or-genra-selection-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#era-or-genra-selection-box button {
+    max-width: 600px;
+    min-width: 40vw;
+    max-height: 400px;
+    min-height: 30vh;
+    margin: 20px;
+    font-size: 4em;
+    border-radius: 6vmax;
+}
+
+#era-or-genra-selection-box p {
+    font-size: 2em;
+}
